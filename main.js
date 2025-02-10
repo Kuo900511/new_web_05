@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const scrollPosition = window.scrollY;
 
       // 當滾動超過 500px，顯示橫幅廣告
-      if (scrollPosition > 1000) {
+      if (scrollPosition > 1100) {
         adBanner.classList.add("active"); // 啟動滑入動畫
         isAdDisplayed = true; // 設置標誌為已顯示
         console.log("橫幅廣告顯示");
